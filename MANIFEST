@@ -1,6 +1,7 @@
 Changes
 LICENSE
 MANIFEST
+MANIFEST.SKIP
 META.yml
 Makefile.PL
 README
@@ -9,4 +10,5 @@ lib/Dist/Zilla/MintingProfile/Author/ARODLAND.pm
 profiles/default/Module.pm
 profiles/default/profile.ini
 profiles/default/skel/Changes
+profiles/default/skel/MANIFEST.SKIP
 profiles/default/skel/dist.ini

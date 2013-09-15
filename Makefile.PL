@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
     "Dist::Zilla::Role::MintingProfile::ShareDir" => 0,
     "Moose" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => ""
   }
@@ -52,8 +52,10 @@ delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
 
 WriteMakefile(%WriteMakefileArgs);
 
+{
 package
 MY;
 use File::ShareDir::Install qw(postamble);
+}
 
 

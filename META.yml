@@ -7,7 +7,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.30
   File::ShareDir::Install: 0.03
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300003, CPAN::Meta::Converter version 2.110930001'
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,5 +23,5 @@ resources:
   homepage: http://metacpan.org/release/Dist-Zilla-MintingProfile-Author-ARODLAND
   license: http://dev.perl.org/licenses/
   repository: git://github.com/arodland/Dist-Zilla-MintingProfile-Author-ARODLAND.git
-version: 0.01
+version: 0.02
 x_authority: cpan:ARODLAND
